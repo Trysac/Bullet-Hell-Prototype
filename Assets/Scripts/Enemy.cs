@@ -14,31 +14,34 @@ public class Enemy : MonoBehaviour
     [SerializeField] float life = 10f;
     [SerializeField] float damage = 1f;
 
-    [Header("Targets to Walk to")]
-    [SerializeField] Transform[] firstTargetPosition;
-    [SerializeField] Transform[] SecondTargetPosition;
-
     public bool IsAlive { get; set; }
     public float Damage { get; set; }
     public float Life { get; set; }
     public float Defence { get; set; }
     public Vector3 currentTarget { get; set; }
 
+    public bool IsAttacking { get; set; }
+
     NavMeshAgent myNavMesh;
+    SpawnManager spawnManager;
 
 
     void Start()
     {
+        spawnManager = FindObjectOfType<SpawnManager>();
+        myNavMesh = GetComponent<NavMeshAgent>();
+        myNavMesh.speed = speed;
+
         //Inial Parameters
         IsAlive = true;
         Damage = damage;
         Life = life;
         Defence = defence;
 
-        currentTarget = firstTargetPosition[Random.Range(0,firstTargetPosition.Length)].position;
+        IsAttacking = false;
 
-        myNavMesh = GetComponent<NavMeshAgent>();
-        myNavMesh.speed = speed;
+        currentTarget = spawnManager.SetInitialTarget();
+
     }
 
 
@@ -47,12 +50,21 @@ public class Enemy : MonoBehaviour
         if (IsAlive) 
         {
             myNavMesh.destination = currentTarget;
+            if (IsAttacking) 
+            {
+                Attack();
+            }
         }
+    }
+
+    public void Attack() 
+    {
+        print("Attack");
     }
 
     public void TakeDamage(float damage) 
     {
-        Life -= damage;
+        Life -= (damage - Defence/2);
         if (Life <= 0) 
         {
             Die();
@@ -63,4 +75,5 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
 }

@@ -12,6 +12,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float minRotation = -0.5f;
     [SerializeField] float maxRotation = 0.5f;
 
+    public bool IsAlive { get; set; }
+    private void Start()
+    {
+        IsAlive = true;
+    }
+
     void Update()
     {
         float movement = Input.GetAxis("Horizontal") * speed * Time.deltaTime;

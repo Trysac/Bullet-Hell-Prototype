@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Target_1
+  - Target_2
+  - Target_Final
   layers:
   - Default
   - TransparentFX
