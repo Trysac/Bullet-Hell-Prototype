@@ -15,11 +15,11 @@ D:/Desarrollos/Unity/Bullet Hell Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49688
+50210
 Successfully changed project path to: D:/Desarrollos/Unity/Bullet Hell Prototype
 D:/Desarrollos/Unity/Bullet Hell Prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 228.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,332 +35,379 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002231 seconds.
+Registered in 0.004687 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 125.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.609 seconds
+- Completed reload, in  3.027 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002497 seconds.
+Registered in 0.006439 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  1.481 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2668 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.6 MB.
+Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 2.992100 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.307300 ms  DeleteObjects: 0.090000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 3.431300 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.220700 ms MarkObjects: 2.760700 ms  DeleteObjects: 0.104800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/External Assets
-  artifactKey: Guid(393c0022ef9507948b14df360f3d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets using Guid(393c0022ef9507948b14df360f3d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53bae1589dd9ba63d4aea5c5212e39') in 0.164132 seconds 
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(8a3c37ac011c2f947a91bfc321e87d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(8a3c37ac011c2f947a91bfc321e87d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73788322d06c76d46695153b556d844') in 0.194768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.741648 seconds.
-  path: Assets/External Assets/BattleRoyaleDuoPAPBR
-  artifactKey: Guid(e0ab44925ac44574bb3ae9a5dfd4aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BattleRoyaleDuoPAPBR using Guid(e0ab44925ac44574bb3ae9a5dfd4aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a591688e2a5e28a2d28342b3a021b4c') in 0.098465 seconds 
+  Time since last request: 271.715070 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(8a3c37ac011c2f947a91bfc321e87d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(8a3c37ac011c2f947a91bfc321e87d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb8fba099a742227772fd66b4e479a7') in 0.098572 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 3.107800 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.137500 ms MarkObjects: 2.455800 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 5.151400 ms (FindLiveObjects: 0.504500 ms CreateObjectMapping: 0.217900 ms MarkObjects: 4.333600 ms  DeleteObjects: 0.092800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 4.197200 ms (FindLiveObjects: 0.500200 ms CreateObjectMapping: 0.251400 ms MarkObjects: 3.363400 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 3.605200 ms (FindLiveObjects: 0.531300 ms CreateObjectMapping: 0.230300 ms MarkObjects: 2.732200 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 3.884100 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.161000 ms MarkObjects: 3.183100 ms  DeleteObjects: 0.086000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 4.314700 ms (FindLiveObjects: 0.464500 ms CreateObjectMapping: 0.168800 ms MarkObjects: 3.600100 ms  DeleteObjects: 0.079200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3142.
+Total: 4.619000 ms (FindLiveObjects: 0.600100 ms CreateObjectMapping: 0.250800 ms MarkObjects: 3.662700 ms  DeleteObjects: 0.103100 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 1.761576 seconds.
-  path: Assets/External Assets/Low Poly Graveyard
-  artifactKey: Guid(2e8c1130c7e644b4399f9631474ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard using Guid(2e8c1130c7e644b4399f9631474ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6daaffd5f4182d529602143728ef91') in 0.122985 seconds 
+  Time since last request: 1834.042830 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs
+  artifactKey: Guid(009fe79cb2579e3469519c2f890a4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs using Guid(009fe79cb2579e3469519c2f890a4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4467869bb4299eec54981a053085d0c') in 0.284253 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.551621 seconds.
-  path: Assets/External Assets/Mini Legion Lich PBR HP Polyart
-  artifactKey: Guid(35c506b77075d9748bf0c28703d945f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Mini Legion Lich PBR HP Polyart using Guid(35c506b77075d9748bf0c28703d945f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5659485b610f4fcfad44d859d1f2b1b8') in 0.234661 seconds 
+  Time since last request: 0.001015 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie B2 Prefab.prefab
+  artifactKey: Guid(c7e72cdbd233be24eaa213b50b760ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie B2 Prefab.prefab using Guid(c7e72cdbd233be24eaa213b50b760ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f60c20e3118ad385eb158008998217b') in 0.922383 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/External Assets/Mini Legion Lich PBR HP Polyart/Promotion.jpg
-  artifactKey: Guid(8e784dfa7480be14087a1ac2916579ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Mini Legion Lich PBR HP Polyart/Promotion.jpg using Guid(8e784dfa7480be14087a1ac2916579ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4a470a8ddc31d50ba0b350382f860a') in 0.485457 seconds 
+  Time since last request: 0.001084 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie R Prefab.prefab
+  artifactKey: Guid(7f8483b0dd876f947b7fafcff18856b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie R Prefab.prefab using Guid(7f8483b0dd876f947b7fafcff18856b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb18113214f13ff794a5fc7075b9df2d') in 0.418716 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.039766 seconds.
-  path: Assets/External Assets/Polygon zombie package
-  artifactKey: Guid(c5b503987c9978045961c4490e978676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Polygon zombie package using Guid(c5b503987c9978045961c4490e978676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af82579789023af76f0c8ff9910c076') in 0.178374 seconds 
+  Time since last request: 0.000839 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie N Prefab.prefab
+  artifactKey: Guid(e4f04b6b72c1db646b2fc841c5785e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie N Prefab.prefab using Guid(e4f04b6b72c1db646b2fc841c5785e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0471e5e234591f9ba044115a2580c42') in 0.687993 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/External Assets/Polygon zombie package/night.mat
-  artifactKey: Guid(323d6bc1365cd1649862d449835ef75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Polygon zombie package/night.mat using Guid(323d6bc1365cd1649862d449835ef75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea2621dc6b8cd1f55a7f3053a3fd43f') in 0.538633 seconds 
+  Time since last request: 0.000826 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie Q Prefab.prefab
+  artifactKey: Guid(c6f0d81e53ff4474f96f6410a24a4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie Q Prefab.prefab using Guid(c6f0d81e53ff4474f96f6410a24a4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e952e1a2819301606ab480ec366b6e3a') in 0.438148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/External Assets/Polygon zombie package/day.mat
-  artifactKey: Guid(5dd8eb9c85770c242b95f81c03d21020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Polygon zombie package/day.mat using Guid(5dd8eb9c85770c242b95f81c03d21020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb81cb436f8d18c97620b448629b4151') in 0.583939 seconds 
+  Time since last request: 0.000832 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie H Prefab.prefab
+  artifactKey: Guid(9871be7ce80acc14b88823cc50de00a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie H Prefab.prefab using Guid(9871be7ce80acc14b88823cc50de00a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac9b523b5c327471d3692b9250fd686') in 0.699704 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.924144 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs
-  artifactKey: Guid(6da0f78b63651cf4094643d845b39364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs using Guid(6da0f78b63651cf4094643d845b39364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7fb1aae52713406a7c7ea3ad109de0') in 0.281749 seconds 
+  Time since last request: 0.026865 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie J Prefab.prefab
+  artifactKey: Guid(2350f66ce700ade4793681e75bbf455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie J Prefab.prefab using Guid(2350f66ce700ade4793681e75bbf455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6da775ed66f985b58f8bad29e55f361') in 1.565783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/buried grave1.prefab
-  artifactKey: Guid(600b4ca9705246548bddc141bb709a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/buried grave1.prefab using Guid(600b4ca9705246548bddc141bb709a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d83d0e2b017823836b17ebc2e36e4') in 0.295266 seconds 
+  Time since last request: 0.000813 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie M Prefab.prefab
+  artifactKey: Guid(c7b96bd30d9bdfb49ab77ab43d1cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie M Prefab.prefab using Guid(c7b96bd30d9bdfb49ab77ab43d1cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a898191fece74d1c69bfdf64e05f2b') in 0.453260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/BigTomb.prefab
-  artifactKey: Guid(a936493c3db40c94b9dc35072ecd6e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/BigTomb.prefab using Guid(a936493c3db40c94b9dc35072ecd6e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3395f937c34cce4abf3e9bf01e7f3') in 1.150886 seconds 
+  Time since last request: 0.000931 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie B1 Prefab.prefab
+  artifactKey: Guid(7f89a1dce2bcc544c8d39447d69982d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie B1 Prefab.prefab using Guid(7f89a1dce2bcc544c8d39447d69982d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23411946dee7abd9213a1495150d814') in 0.532269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/bone1.prefab
-  artifactKey: Guid(59f35b235fd106e4fbc636fdb2630276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/bone1.prefab using Guid(59f35b235fd106e4fbc636fdb2630276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce5198d98855f6997f5b759853e7090') in 0.238413 seconds 
+  Time since last request: 0.000739 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie G Prefab.prefab
+  artifactKey: Guid(f4bc611c4d0c9734c9b363db6cb9e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie G Prefab.prefab using Guid(f4bc611c4d0c9734c9b363db6cb9e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a3509984407b4c86acca0370f2321e') in 0.820310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/cross3.prefab
-  artifactKey: Guid(5877b7f391c9e474e94282600de544d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/cross3.prefab using Guid(5877b7f391c9e474e94282600de544d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6e6b2ae7212d99b7df17317047f3f9') in 0.349115 seconds 
+  Time since last request: 0.000915 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie P Prefab.prefab
+  artifactKey: Guid(916de83d2e3f92c4e9bad1d330a56588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie P Prefab.prefab using Guid(916de83d2e3f92c4e9bad1d330a56588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7115c6c16256bd4081d0d711e4c4d3') in 0.795368 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/cross2.prefab
-  artifactKey: Guid(64cdb02c727e527448ff37a4333d8586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/cross2.prefab using Guid(64cdb02c727e527448ff37a4333d8586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f19e34ae1c96a4eca878a686c32b6e5') in 0.761314 seconds 
+  Time since last request: 0.000813 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie C Prefab.prefab
+  artifactKey: Guid(9459ff7e87b0c0e44abc9bb1663b459d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie C Prefab.prefab using Guid(9459ff7e87b0c0e44abc9bb1663b459d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ac48f8bf60c3c88acee35691fa2dc4') in 1.941383 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000858 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/humanchest.prefab
-  artifactKey: Guid(516495b6dbb4c2c46920ae41ff63a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/humanchest.prefab using Guid(516495b6dbb4c2c46920ae41ff63a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4288f4ae5978a87c56b509410bdb5d') in 0.260396 seconds 
+  Time since last request: 0.000908 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie K Prefab.prefab
+  artifactKey: Guid(b3c719446f593454b84a59f905151521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie K Prefab.prefab using Guid(b3c719446f593454b84a59f905151521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9111e1de0ee67b5839345d415e45abd8') in 0.575469 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone1.prefab
-  artifactKey: Guid(9985664bcafd2294ab144a8bee41b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone1.prefab using Guid(9985664bcafd2294ab144a8bee41b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567992c7a2885a8d9142365de334b52b') in 0.372582 seconds 
+  Time since last request: 0.001079 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie D Prefab.prefab
+  artifactKey: Guid(7d2d84a8422de95469f164a35e4de741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie D Prefab.prefab using Guid(7d2d84a8422de95469f164a35e4de741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e72a89251ea4fdb7f24ffeaa4c4d8a') in 0.408525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave3.prefab
-  artifactKey: Guid(d5df6ae7cc5eb3f40a81dba12f4b7989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave3.prefab using Guid(d5df6ae7cc5eb3f40a81dba12f4b7989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05163c14954c1cd51160e953bee80a3a') in 0.661267 seconds 
+  Time since last request: 0.000712 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie T prefab.prefab
+  artifactKey: Guid(4ed9c6a88176ac747b2c2f5b13b6e851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie T prefab.prefab using Guid(4ed9c6a88176ac747b2c2f5b13b6e851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa40bcc6745de7c211687d595c5f5ff') in 0.399987 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross2.prefab
-  artifactKey: Guid(80bee448bb3a2314396b907d54e4529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross2.prefab using Guid(80bee448bb3a2314396b907d54e4529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc6bf7cc795ba429bc213c0451990ab') in 0.272850 seconds 
+  Time since last request: 0.000860 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie F Prefab.prefab
+  artifactKey: Guid(2545c22cbd874fd4f959688beeeb84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie F Prefab.prefab using Guid(2545c22cbd874fd4f959688beeeb84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4924e8a1b961c7b72897d4b8015ba3eb') in 0.730861 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/coffin.prefab
-  artifactKey: Guid(f934345242e7f734992f098ab6423238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/coffin.prefab using Guid(f934345242e7f734992f098ab6423238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d952c0ea58c3ef70c18062f1ca627a3') in 0.372601 seconds 
+  Time since last request: 0.000872 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(0b22e89abf82dad4d94db9317a86fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie I Prefab.prefab using Guid(0b22e89abf82dad4d94db9317a86fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aba0b06def45c0d5a9fe7dfc566493') in 0.387225 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/DemoScene_prefab.prefab
-  artifactKey: Guid(78b7519a3bb8a894a8e3b287f50af51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/DemoScene_prefab.prefab using Guid(78b7519a3bb8a894a8e3b287f50af51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e4f79df377b39ff7f96f18118eb023') in 0.705963 seconds 
+  Time since last request: 0.000919 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie A Prefab.prefab
+  artifactKey: Guid(f1851660e8e43df4480fc7deebe4e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie A Prefab.prefab using Guid(f1851660e8e43df4480fc7deebe4e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270b4196d62e37d13db46f4845fbace4') in 0.376464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave8.prefab
-  artifactKey: Guid(9eb22df59167cf543ac139f28667c909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave8.prefab using Guid(9eb22df59167cf543ac139f28667c909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5113c957aec9f82624a29c44754c4538') in 0.294616 seconds 
+  Time since last request: 0.000826 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie O Prefab.prefab
+  artifactKey: Guid(95fabbf19ac6e4c468fb0e9006174c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie O Prefab.prefab using Guid(95fabbf19ac6e4c468fb0e9006174c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6318ed28e953772e5901c10c7e49c6c') in 0.964773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone3.prefab
-  artifactKey: Guid(943dd87299b0c494f9d180a3c21aeafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone3.prefab using Guid(943dd87299b0c494f9d180a3c21aeafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732c4904b87e8753a50b33f136f130e1') in 0.417272 seconds 
+  Time since last request: 0.000939 seconds.
+  path: Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie E Prefab.prefab
+  artifactKey: Guid(cbe686e54b8cfed4c903e93278a80d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Polygon zombie package/Zombie prefabs/Zombie E Prefab.prefab using Guid(cbe686e54b8cfed4c903e93278a80d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fd28016324ab733af897fbf22d9397') in 0.638342 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave5.prefab
-  artifactKey: Guid(be0a80f4a4e6e2548920653bce9ad844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave5.prefab using Guid(be0a80f4a4e6e2548920653bce9ad844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bd59ab5203cc8d29849d00e7ef9abe') in 0.550993 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3153.
+Total: 3.461900 ms (FindLiveObjects: 0.710600 ms CreateObjectMapping: 0.227500 ms MarkObjects: 2.453600 ms  DeleteObjects: 0.067300 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/cross1.prefab
-  artifactKey: Guid(9d9b8bb6415028e488ab9999685f4c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/cross1.prefab using Guid(9d9b8bb6415028e488ab9999685f4c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7533f1a3e98ddad3705aad0d00a263fd') in 0.261637 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 4.269300 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.305200 ms MarkObjects: 3.289500 ms  DeleteObjects: 0.072500 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone4.prefab
-  artifactKey: Guid(079567f63ed456b4b992b5546f77a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone4.prefab using Guid(079567f63ed456b4b992b5546f77a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9329ba055d89e2cafbfb8b214e986e') in 0.261998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone2.prefab
-  artifactKey: Guid(0d22b74d1760ba64195e00a3cf60edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone2.prefab using Guid(0d22b74d1760ba64195e00a3cf60edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfa1ea3e71966dd2f7356b36a4b90cd') in 0.629185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross3.prefab
-  artifactKey: Guid(bc0fed5f263c82a42bf0164e20516387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross3.prefab using Guid(bc0fed5f263c82a42bf0164e20516387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79ff4c76d5a45306bcdb77de190aa87') in 0.550490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/coffinroof.prefab
-  artifactKey: Guid(b07873fad96387146b4236aa8505b45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/coffinroof.prefab using Guid(b07873fad96387146b4236aa8505b45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5efa930985a6ab7b595dd8d0ca3e96') in 0.394800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave6.prefab
-  artifactKey: Guid(d1958d257c44b484c9bb773aa3b222d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave6.prefab using Guid(d1958d257c44b484c9bb773aa3b222d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a316efab983bb05aa34dda4890f7959f') in 0.592861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grass.prefab
-  artifactKey: Guid(55b8b179032238b40883e0ac64d93d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grass.prefab using Guid(55b8b179032238b40883e0ac64d93d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3418f5b6c602684544a4004c14e4c') in 0.617419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone1.prefab
-  artifactKey: Guid(30ae1bb7dcd8b284698b5e1e1c9bb0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone1.prefab using Guid(30ae1bb7dcd8b284698b5e1e1c9bb0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8137c2b75b7a2d46312195b318a652f') in 0.483685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/tombstonesign.prefab
-  artifactKey: Guid(137e6961bdc5e114eaa5cdb5965c8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/tombstonesign.prefab using Guid(137e6961bdc5e114eaa5cdb5965c8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd461feb0b5cf7bbc2a5cb1eca342b40') in 0.272502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross1.prefab
-  artifactKey: Guid(46d841e7dc9993945ac39b9d889b0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokencross1.prefab using Guid(46d841e7dc9993945ac39b9d889b0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a844643a86bdf761223da51001e1dc') in 0.261869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone2.prefab
-  artifactKey: Guid(f8197b56c6c60e84b8b48ffd0c5b4e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone2.prefab using Guid(f8197b56c6c60e84b8b48ffd0c5b4e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c9c139fdc6ef096e1927e267e63843') in 0.265655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/fence.prefab
-  artifactKey: Guid(a0fd07c9db0ba024a879595b38c2c402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/fence.prefab using Guid(a0fd07c9db0ba024a879595b38c2c402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db49daf4a443f10e7d8b0364021bbb1') in 0.961558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone4.prefab
-  artifactKey: Guid(25a277d583f3a9c4f99669e30b48271a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/tombstone4.prefab using Guid(25a277d583f3a9c4f99669e30b48271a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087a892fe71f388351dc6ae019e428f9') in 0.250557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave2.prefab
-  artifactKey: Guid(9aef0954b7d7800499562cb9bdfd28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave2.prefab using Guid(9aef0954b7d7800499562cb9bdfd28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70234e4a5ed4344dcdb3e2f0d955fee') in 0.507386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/bone2.prefab
-  artifactKey: Guid(4deb464c1e0d6de458e47f74287b69b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/bone2.prefab using Guid(4deb464c1e0d6de458e47f74287b69b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8862396c61a091231dae474690d2ead5') in 0.705254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave4.prefab
-  artifactKey: Guid(8ce8a0decba5f2348ad138738b234eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave4.prefab using Guid(8ce8a0decba5f2348ad138738b234eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6322e4a8db1b25e63bc8f1bcc13fb5e2') in 0.239408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone3.prefab
-  artifactKey: Guid(791f6d86b0466b54bb5d89e40ae60019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/brokentombstone3.prefab using Guid(791f6d86b0466b54bb5d89e40ae60019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216ade8f5823fd050f4858731c0d9b8c') in 0.595062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000893 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/flower1.prefab
-  artifactKey: Guid(2b32b6f87beb6c443b402745f6cda510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/flower1.prefab using Guid(2b32b6f87beb6c443b402745f6cda510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af9f682eb1fff6ddeeec666f03492f5') in 0.692960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/buried grave2.prefab
-  artifactKey: Guid(ad738a6f9b3f1054e96395e09e05cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/buried grave2.prefab using Guid(ad738a6f9b3f1054e96395e09e05cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a6b92667b12cf7e39c44a88640553e') in 0.883235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave1.prefab
-  artifactKey: Guid(7f5abae2220262d448d1291734de367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave1.prefab using Guid(7f5abae2220262d448d1291734de367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b2f952f0cebd3d816e0403870fdced') in 0.540212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/grave7.prefab
-  artifactKey: Guid(42a171cf451b4d64399d37a24140f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/grave7.prefab using Guid(42a171cf451b4d64399d37a24140f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3876a9fc64218807bd5da3f6f7f19376') in 0.816843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/shovel.prefab
-  artifactKey: Guid(53714cef8706cf24cb6cd8361c05e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/shovel.prefab using Guid(53714cef8706cf24cb6cd8361c05e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5c5960b2cd9e2e5f8879da7f1cc8e7') in 0.261618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/sjull.prefab
-  artifactKey: Guid(8b8c447cd66c53e42a05b5863a88c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/sjull.prefab using Guid(8b8c447cd66c53e42a05b5863a88c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013b43d665d81915ffd2ed77463ab48') in 0.249911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/flower2.prefab
-  artifactKey: Guid(b4ada2a5d661256468e028076a58995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/flower2.prefab using Guid(b4ada2a5d661256468e028076a58995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3e6e48b8436de726ca38284bf54b28') in 0.494892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/flower3.prefab
-  artifactKey: Guid(361e926a44fe31e4597d5acb7ddc56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/flower3.prefab using Guid(361e926a44fe31e4597d5acb7ddc56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e77386236af1be0b78c1ac72181a9a7') in 0.860753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/External Assets/Low Poly Graveyard/Prefabs/skeleton.prefab
-  artifactKey: Guid(39f905046dc03414f8baad7aa032a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Low Poly Graveyard/Prefabs/skeleton.prefab using Guid(39f905046dc03414f8baad7aa032a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c800ede2dd73b9f9cfec4e9b61fcf28') in 0.564369 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.411 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 4.521900 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.186900 ms MarkObjects: 3.816800 ms  DeleteObjects: 0.104100 ms)
+
