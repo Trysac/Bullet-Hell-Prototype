@@ -12,6 +12,7 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] GameObject[] basicEnemies;
     [SerializeField] GameObject[] mediumEnemies;
     [SerializeField] GameObject[] touhgEnemies;
+    [SerializeField] Transform enemiesContainer;
 
     [Header("Targets to Walk to")]
     [SerializeField] Transform[] firstTargetPosition;
@@ -40,7 +41,8 @@ public class SpawnManager : MonoBehaviour
 
     private void SpawnEnemy() 
     {
-        Instantiate(basicEnemies[Random.Range(0,basicEnemies.Length)], spawnPointsPositions[Random.Range(0, spawnPointsPositions.Length)].position,Quaternion.identity);
+        GameObject enemy = Instantiate(basicEnemies[Random.Range(0,basicEnemies.Length)], spawnPointsPositions[Random.Range(0, spawnPointsPositions.Length)].position,Quaternion.identity);
+        enemy.transform.SetParent(enemiesContainer);
     }
 
     public Vector3 SetInitialTarget() 
