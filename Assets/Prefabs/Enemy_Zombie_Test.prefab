@@ -78,8 +78,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a3c37ac011c2f947a91bfc321e87d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  pointsPerKill: 1
+  speed: 1.5
+  pointsPerKill: 10
+  coinsPerKill: 3
   defence: 0
   life: 10
   damage: 1

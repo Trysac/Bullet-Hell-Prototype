@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [Header("General Parameters")]
     [SerializeField] float speed = 1f;
     [SerializeField] int pointsPerKill = 1;
+    [SerializeField] int coinsPerKill = 1;
 
     [Header("Initial Values for Properties")]
     [SerializeField] float defence = 0f;
@@ -73,6 +74,9 @@ public class Enemy : MonoBehaviour
 
     private void Die() 
     {
+        GameManager gameManager = FindObjectOfType<GameManager>();
+        gameManager.AddToScore(pointsPerKill);
+        gameManager.AddCoins(coinsPerKill);
         Destroy(gameObject);
     }
 

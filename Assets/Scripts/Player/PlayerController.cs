@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
+    [SerializeField] float life = 100f;
     [SerializeField] GameObject bullet;
 
     [Header("Rotation Values")]
@@ -13,6 +14,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float maxRotation = 0.5f;
 
     public bool IsAlive { get; set; }
+    public float Life { get; set; }
+
+    private void Awake()
+    {
+        Life = life;
+    }
     private void Start()
     {
         IsAlive = true;
